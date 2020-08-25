@@ -19,7 +19,7 @@ colnames(pH_C) <- c("Reactor","Datetime", "pH", "Voltage")
 #x3 <- pH_C %>% select("Datetime")
 #y1 <- pH_A %>% select("pH")
 #y2 <- pH_B %>% select("pH")
-#y3 <- pH_C %>% select("pH")
+#y3 <- pH_C %>% select("pH")#TestCW
 
 p1 <- ggplot(data = pH_A) + 
   geom_point(mapping = aes(x = Datetime, y = pH)) +
